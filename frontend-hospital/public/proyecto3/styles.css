@@ -415,6 +415,8 @@ button {
         url("/proyecto3/presentacion.png");
 
     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 
     animation:
         cardFloatOne 8s
