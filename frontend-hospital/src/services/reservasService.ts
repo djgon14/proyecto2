@@ -1,13 +1,4 @@
-const STORAGE_KEY = "hourlySchoolReservations";
-
-export function getReservations<T = unknown>(): T[] {
-  try {
-    return JSON.parse(localStorage.getItem(STORAGE_KEY) ?? "[]") as T[];
-  } catch {
-    return [];
-  }
-}
-
-export function saveReservations<T>(reservations: T[]): void {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(reservations));
-}
+export type Reserva={id:string;roomId:string;roomName:string;date:string;start:string;end:string;name:string;course:string;phone:string;email:string;reason:string};
+const KEY="don_bosco_reservations";
+export function cargarReservas():Reserva[]{try{return JSON.parse(localStorage.getItem(KEY)??"[]") as Reserva[]}catch{return[]}}
+export function guardarReservas(value:Reserva[]){localStorage.setItem(KEY,JSON.stringify(value))}
