@@ -9,7 +9,7 @@ const rooms = [
         name: "Cancha de Secundaria",
         type: "Deportivo",
         capacity: 80,
-        image: "https://raw.githubusercontent.com/djgon14/proyecto3/main/cancha1.jpeg",
+        image: "/proyecto3/secundaria.png",
         description:
             "Cancha destinada a las actividades deportivas de secundaria."
     },
