@@ -389,7 +389,7 @@ button {
     top: 40px;
 
     background-image:
-        url("https://raw.githubusercontent.com/djgon14/proyecto3/main/patio.png");
+        url("patio.png");
 
     background-position: center;
 
@@ -412,7 +412,7 @@ button {
     top: 0;
 
     background-image:
-        url("https://raw.githubusercontent.com/djgon14/proyecto3/main/presentacion.png");
+        url("presentacion.png");
 
     background-position: center;
 
@@ -435,7 +435,7 @@ button {
     bottom: 10px;
 
     background-image:
-        url("https://raw.githubusercontent.com/djgon14/proyecto3/main/eventos.png");
+        url("eventos.png");
 
     background-position: center;
 
