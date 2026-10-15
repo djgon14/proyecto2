@@ -9,7 +9,7 @@ const rooms = [
         name: "Cancha de Secundaria",
         type: "Deportivo",
         capacity: 80,
-        image: "secundaria.png",
+        image: "/proyecto3/secundaria.png",
         description:
             "Cancha destinada a las actividades deportivas de secundaria."
     },
@@ -19,7 +19,7 @@ const rooms = [
         name: "Cancha de Primaria 1",
         type: "Deportivo",
         capacity: 60,
-        image: "cancha1.jpeg",
+        image: "/proyecto3/cancha1.jpeg",
         description:
             "Primera cancha destinada a las actividades de primaria."
     },
@@ -29,7 +29,7 @@ const rooms = [
         name: "Cancha de Primaria 2",
         type: "Deportivo",
         capacity: 60,
-        image: "cancha2.jpeg",
+        image: "/proyecto3/cancha2.jpeg",
         description:
             "Segunda cancha destinada a las actividades de primaria."
     },
@@ -39,7 +39,7 @@ const rooms = [
         name: "Coliseo",
         type: "Deportivo / Eventos",
         capacity: 500,
-        image: "coliseo.jpeg",
+        image: "/proyecto3/coliseo.jpeg",
         description:
             "Espacio amplio para eventos, deportes y actividades institucionales."
     },
@@ -49,7 +49,7 @@ const rooms = [
         name: "Templo",
         type: "Institucional",
         capacity: 450,
-        image: "templo.jpeg",
+        image: "/proyecto3/templo.jpeg",
         description:
             "Espacio destinado a celebraciones y actividades institucionales."
     },
@@ -59,7 +59,7 @@ const rooms = [
         name: "Laboratorio de Computación 1",
         type: "Académico",
         capacity: 50,
-        image: "curso1.jpeg",
+        image: "/proyecto3/curso1.jpeg",
         description:
             "Aula equipada para clases de computación y tecnología."
     },
@@ -69,7 +69,7 @@ const rooms = [
         name: "Laboratorio de Computación 2",
         type: "Académico",
         capacity: 50,
-        image: "curso2.jpeg",
+        image: "/proyecto3/curso2.jpeg",
         description:
             "Segunda aula para clases de computación y tecnología."
     },
@@ -79,7 +79,7 @@ const rooms = [
         name: "Teatro",
         type: "Cultural / Eventos",
         capacity: 250,
-        image: "teatro.jpeg",
+        image: "/proyecto3/teatro.jpeg",
         description:
             "Espacio para obras, presentaciones, ensayos y actos."
     },
@@ -89,7 +89,7 @@ const rooms = [
         name: "Laboratorio de Ciencias",
         type: "Química / Biología",
         capacity: 40,
-        image: "laboratorio.jpeg",
+        image: "/proyecto3/laboratorio.jpeg",
         description:
             "Laboratorio utilizado para prácticas de química y biología."
     }
