@@ -1,4 +1,9 @@
 {
+  "scripts": {
+    "dev": "npm --prefix frontend-hospital run dev",
+    "build": "npm --prefix frontend-hospital run build",
+    "preview": "npm --prefix frontend-hospital run preview"
+  },
   "dependencies": {
     "react-router-dom": "^7.18.4"
   }
