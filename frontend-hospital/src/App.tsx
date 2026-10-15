@@ -1,22 +1,27 @@
 import { useEffect } from "react";
 
 /**
- * La portada, estilos, calendario, reservas y modales conservan el diseño
- * original de proyecto3. React monta la aplicación dentro de la página.
+ * React inicia el sitio original de proyecto3 desde public/proyecto3.
+ * Así se conserva el HTML, CSS, JavaScript y el diseño original sin
+ * reconstruir ni alterar tamaños, colores o distribución.
  */
 export default function App() {
   useEffect(() => {
     document.title = "Don Bosco Sucre - Reservas";
+    window.location.replace("/proyecto3/index.html");
   }, []);
 
   return (
-    <main style={{ width: "100%", minHeight: "100dvh", margin: 0, padding: 0 }}>
-      <iframe
-        key="proyecto3-original"
-        title="Sistema de reservas del Colegio Don Bosco"
-        src="/proyecto3/index.html?v=20261015"
-        style={{ display: "block", width: "100%", height: "100dvh", minHeight: "100dvh", border: 0 }}
-      />
+    <main
+      style={{
+        minHeight: "100vh",
+        display: "grid",
+        placeItems: "center",
+        fontFamily: "Arial, sans-serif",
+        color: "#071d3a",
+      }}
+    >
+      Cargando el sistema de reservas…
     </main>
   );
 }
